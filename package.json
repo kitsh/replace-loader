@@ -1,14 +1,23 @@
 {
-  "name": "replace-loader",
-  "version": "0.2.0",
-  "description": "Webpack loader that applies regex to file",
+  "name": "commute-replace-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader that applies a custom repacefunc",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:fongandrew/replace-loader.git"
+    "url": "git+ssh://git@github.com/kitsh/replace-loader.git"
   },
   "devDependencies": {},
   "dependencies": {
     "loader-utils": "^0.2.11"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kitsh/replace-loader/issues"
+  },
+  "homepage": "https://github.com/kitsh/replace-loader#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
