@@ -1,6 +1,6 @@
 {
-  "name": "commute-replace-loader",
-  "version": "0.0.3",
+  "name": "replace-commute-loader",
+  "version": "0.0.1",
   "description": "Webpack loader that applies a custom repacefunc",
   "license": "MIT",
   "repository": {
