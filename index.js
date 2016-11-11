@@ -3,7 +3,7 @@ var loaderUtils = require('loader-utils');
 
 module.exports = function(content) {
   if (this.cacheable) { this.cacheable(); }
-  var reg1 = /<commute(.*?)><\/commute>/g
+  var reg1 = /<com(.*?)><\/com>/g
 
   function replaceFunc(item) {
     var key = item.match(/\[key\]\s?=\s?["\']\s?(["\'].*?["\'])/);
